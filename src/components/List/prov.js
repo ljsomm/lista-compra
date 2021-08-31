@@ -1,0 +1,1 @@
+export default [{id: 1, pname: "Batata", quantity: 5}, {id: 2, pname: "Bolacha", quantity: 5}]
