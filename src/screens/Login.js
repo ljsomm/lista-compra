@@ -13,7 +13,7 @@ export default props =>(
             <Logo style={Style.logo}/>
         </View>
         <View>
-            <Title >Login</Title>
+            <Title>Login</Title>
         </View>
         <View>
             <TextField ph={"Usuário"}/>

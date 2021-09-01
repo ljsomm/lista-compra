@@ -1,10 +1,11 @@
 import React from 'react';
-import {Text} from 'react-native';
+import { SafeAreaView, ScrollView } from 'react-native';
+import Header from '../components/Header';
 import List from '../components/List';
 
 export default props => (
-    <>
-        <Text style={{padding: 10, backgroundColor: '#74CAEB', color: 'white', textAlign: 'center', fontFamily: 'century-gothic', fontSize: 15}}>Lista de Produtos</Text>
+    <SafeAreaView>
+        <Header>Lista de Produtos</Header>
         <List/>
-    </>
+    </SafeAreaView>
 )

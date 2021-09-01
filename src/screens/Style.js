@@ -6,6 +6,10 @@ const Style = StyleSheet.create({
         padding: 30,
         justifyContent: 'center'
     },
+    body: {
+        padding: 30,
+        justifyContent: 'center'
+    },
     viewCenter:{
         alignItems: 'center'
     },

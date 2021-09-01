@@ -4,7 +4,7 @@ import Style from './Style';
 
 export default ({item}) => (
     <View style={Style.item}>
-        <Text>{item.pname}</Text>
-        <Text>{item.quantity}</Text>
+        <Text style={Style.itemText}>{item.pname}</Text>
+        <Text style={Style.itemText}>{item.quantity}</Text>
     </View>
 )

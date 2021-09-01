@@ -5,6 +5,6 @@ import Style from './Style';
 
 export default props => {
     return(
-        <Text style={Style.h1}>{props.children}</Text>
+        <Text style={props.header ? Style.header : Style.h1 }>{props.children}</Text>
     );
 }
