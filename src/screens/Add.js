@@ -6,12 +6,12 @@ import TextField from '../components/TextField';
 import Style from './Style';
 
 export default props=>(
-    <View>
+    <>
         <Header>Adicionar Produto</Header>
         <View style={Style.body}>
-            <TextField ph={"Nome do Produto"}/>
-            <TextField ph={"Quantia"}/>
+            <TextField  ph={"Nome do Produto"}/>
+            <TextField isnumber={true} ph={"Quantia"}/>
             <Button>Adicionar</Button>
         </View>
-    </View>
+    </>
 );
